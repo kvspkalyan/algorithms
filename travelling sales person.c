@@ -2,7 +2,7 @@
 
 int graph[10][10], visited[10], n, cost = 0;
 
-int input_graph ()
+int input_graph (int n)
 {
   int i, j;
   for (i = 0; i < n; i++)
