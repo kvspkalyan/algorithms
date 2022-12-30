@@ -16,7 +16,7 @@ void comapre(int i)
             break;                     
         }
     }
-    zarr[]=
+    zarr[i]= count;
 }
 void search(char str[],char pat[])
 {
@@ -24,8 +24,18 @@ void search(char str[],char pat[])
     strcat(zstr,"#");
     strcat(zstr,str);
     printf("%s\n",zstr);
-    for()
-    
+    for(int i=1;i<strlen(zstr);i++)
+    {
+        if(zstr[0] == zstr[i])
+        {
+            compare(i);
+        }
+        else
+        {
+            zarr[i] = 0;
+        }
+    }
+                   
 }
 void main()
 {
