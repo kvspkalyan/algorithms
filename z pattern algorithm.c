@@ -46,5 +46,11 @@ void main()
     {
         printf("%d",zarr[i]);
     }
-   
+    for(int i=0;i<strlen(zstr);i++)
+    {
+        if(zarr[i] == strlen(pat))
+        {
+            printf("\n%d",i-4);
+        }
+    }
 }
