@@ -2,9 +2,9 @@
 #include <string.h>
 char zstr[100];
 int zarr[100];
-void comapre(int i)
+void compare(int i)
 {
-    count=0;
+    int count=0;
     for(int j=0;zstr[j] != "#";j++)
     {
         if(zstr[j]==zstr[i+j])
